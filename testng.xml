@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WalletHub Test Automation Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	<test name="WalletHub Selenim Test 2">
+		<classes>
+			<class name="ub.wallethub.tests.WalletHubTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
